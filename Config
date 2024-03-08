@@ -1,1 +1,149 @@
-vless://b91b3053-9602-4a60-b848-ec0eafea2053@WWW.zuLa.iR:2053?path=%2F&security=tls&encryption=none&alpn=h2,http/1.1&host=U6zghN5zytARET4s838Q76KQgd9mn61uFlu53560Xv8nMU68gd7q25y3px.paGes-dev.SitE&fp=chrome&type=ws&sni=U6zghN5zytARET4s838Q76KQgd9mn61uFlu53560Xv8nMU68gd7q25y3px.paGes-dev.SitE#%23%D8%B3%DA%AF%D8%A7%D8%B1%D9%88-2053
+{
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test.amir-shahravi1370.WORkErS.DeV",
+            "port": 443,
+            "users": [
+              {
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "alterId": 0,
+                "email": "mailto:t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "TEsT.aMIr-ShahrAVI1370.woRKERS.dev",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "wsSettings": {
+          "path": "/waynn.makeup/linkvws",
+          "headers": {
+            "Host": "TEsT.aMIr-ShahrAVI1370.woRKERS.dev"
+          }
+        },
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpNoDelay": true
+        }
+      }
+    },
+    {
+      "tag": "fragment",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "AsIs",
+        "fragment": {
+          "packets": "tlshello",
+          "length": "10-20",
+          "interval": "10-20"
+        }
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "enabled": true
+      },
+      {
+        "id": "5627785659655799759",
+        "type": "field",
+        "port": "0-65535",
+        "outboundTag": "proxy",
+        "enabled": true
+      }
+    ]
+  }
+}
