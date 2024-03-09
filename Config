@@ -1,4 +1,5 @@
 {
+  "remarks": "Conf",
   "log": {
     "access": "",
     "error": "",
@@ -51,13 +52,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "test.amir-shahravi1370.WORkErS.DeV",
-            "port": 443,
+            "address": "test.amir-shahravi1370.WorkErS.DEV",
+            "port": 2053,
             "users": [
               {
-                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "id": "5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9",
                 "alterId": 0,
-                "email": "mailto:t@t.tt",
+                "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none",
                 "flow": ""
@@ -71,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "TEsT.aMIr-ShahrAVI1370.woRKERS.dev",
+          "serverName": "TEST.amir-SHAHravI1370.woRkeRs.dev",
           "alpn": [
             "h2",
             "http/1.1"
@@ -80,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/waynn.makeup/linkvws",
+          "path": "/cfhk.393930.xyz/",
           "headers": {
-            "Host": "TEsT.aMIr-ShahrAVI1370.woRKERS.dev"
+            "Host": "TEST.amir-SHAHravI1370.woRkeRs.dev"
           }
         },
         "sockopt": {
