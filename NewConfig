@@ -1,5 +1,5 @@
 {
-  "remarks": "conf",
+  "remarks": "Conf",
   "log": {
     "access": "",
     "error": "",
@@ -48,15 +48,15 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "test.amir-shahravi1370.WorkErS.DEV",
-            "port": 443,
+            "address": "www.zula.ir",
+            "port": 8443,
             "users": [
               {
-                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "id": "b91b3053-9602-4a60-b848-ec0eafea8443",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tEsT.AmIR-sHAhRaVi1370.WoRKERs.dEv",
+          "serverName": "U6zghn5zyTareT4s838Q76KqgD9MN61uflu53560xv8NMu68gD7Q25Y3PX.pageS-dEv.sitE",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/worker-lingering-fog-c021.gesofog870.workers.dev/kellie.makeup/linkvws",
+          "path": "/",
           "headers": {
-            "Host": "tEsT.AmIR-sHAhRaVi1370.WoRKERs.dEv"
+            "Host": "U6zghn5zyTareT4s838Q76KqgD9MN61uflu53560xv8NMu68gD7Q25Y3PX.pageS-dEv.sitE"
           }
         },
         "sockopt": {
