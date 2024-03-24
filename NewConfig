@@ -1,5 +1,5 @@
 {
-  "remarks": "Conf",
+  "remarks": "(Fragment)",
   "log": {
     "access": "",
     "error": "",
@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.zula.ir",
-            "port": 8443,
+            "address": "www.zula.Ir",
+            "port": 2096,
             "users": [
               {
-                "id": "b91b3053-9602-4a60-b848-ec0eafea8443",
+                "id": "b91b3053-9602-4a60-b848-ec0eafea2096",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "U6zghn5zyTareT4s838Q76KqgD9MN61uflu53560xv8NMu68gD7Q25Y3PX.pageS-dEv.sitE",
+          "serverName": "u6ZgHN5ZYTAret4s838q76KqGd9Mn61uFLU53560Xv8nmu68GD7q25y3px.PAgeS-dEV.SiTe",
           "alpn": [
             "h2",
             "http/1.1"
@@ -83,7 +83,7 @@
         "wsSettings": {
           "path": "/",
           "headers": {
-            "Host": "U6zghn5zyTareT4s838Q76KqgD9MN61uflu53560xv8NMu68gD7Q25Y3PX.pageS-dEv.sitE"
+            "Host": "u6ZgHN5ZYTAret4s838q76KqGd9Mn61uFLU53560Xv8nmu68GD7q25y3px.PAgeS-dEV.SiTe"
           }
         },
         "sockopt": {
