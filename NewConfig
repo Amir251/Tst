@@ -1,5 +1,5 @@
 {
-  "remarks": "(Fragment)",
+  "remarks": "Fragment",
   "log": {
     "access": "",
     "error": "",
@@ -48,15 +48,15 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "www.zula.Ir",
-            "port": 2096,
+            "address": "test.amir-shahravi1370.WOrkErs.Dev",
+            "port": 443,
             "users": [
               {
-                "id": "b91b3053-9602-4a60-b848-ec0eafea2096",
+                "id": "5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "u6ZgHN5ZYTAret4s838q76KqGd9Mn61uFLU53560Xv8nmu68GD7q25y3px.PAgeS-dEV.SiTe",
+          "serverName": "TEst.AMir-SHaHravi1370.wORKErs.dEV",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/",
+          "path": "/cfhk.393930.xyz/",
           "headers": {
-            "Host": "u6ZgHN5ZYTAret4s838q76KqGd9Mn61uFLU53560Xv8nmu68GD7q25y3px.PAgeS-dEV.SiTe"
+            "Host": "TEst.AMir-SHaHravi1370.wORKErs.dEV"
           }
         },
         "sockopt": {
