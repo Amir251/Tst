@@ -1,5 +1,4 @@
 {
-  "remarks": "Fragment",
   "log": {
     "access": "",
     "error": "",
@@ -52,13 +51,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "test.amir-shahravi1370.WOrkErs.Dev",
+            "address": "test.amir-shahravi1370.worKERS.DEV",
             "port": 443,
             "users": [
               {
-                "id": "5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "alterId": 0,
-                "email": "t@t.tt",
+                "email": "mailto:t@t.tt",
                 "security": "auto",
                 "encryption": "none",
                 "flow": ""
@@ -72,7 +71,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "TEst.AMir-SHaHravi1370.wORKErs.dEV",
+          "serverName": "tEST.amir-shahravi1370.woRkers.deV",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +80,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/cfhk.393930.xyz/",
+          "path": "/muriel.makeup/linkvws",
           "headers": {
-            "Host": "TEst.AMir-SHaHravi1370.wORKErs.dEV"
+            "Host": "tEST.amir-shahravi1370.woRkers.deV"
           }
         },
         "sockopt": {
