@@ -1,5 +1,5 @@
 {
-  "remarks": "Conf",
+  "remarks": "Config",
   "log": {
     "access": "",
     "error": "",
@@ -48,15 +48,15 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "test.amir-shahravi1370.WorkErS.DEV",
+            "address": "test.amir-shahravi1370.workers.dev",
             "port": 2053,
             "users": [
               {
-                "id": "5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9",
+                "id": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "TEST.amir-SHAHravI1370.woRkeRs.dev",
+          "serverName": "TesT.AMir-sHaHRAVi1370.workERS.DEv",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/cfhk.393930.xyz/",
+          "path": "/whmm.MeRLInnZ.linK:2053/vless-ws/",
           "headers": {
-            "Host": "TEST.amir-SHAHravI1370.woRkeRs.dev"
+            "Host": "TesT.AMir-sHaHRAVi1370.workERS.DEv"
           }
         },
         "sockopt": {
