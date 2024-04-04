@@ -1,4 +1,5 @@
 {
+  "remarks": "Fragment",
   "log": {
     "access": "",
     "error": "",
@@ -47,17 +48,17 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "test.amir-shahravi1370.worKERS.DEV",
+            "address": "104.16.61.8",
             "port": 443,
             "users": [
               {
-                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "id": "a61eb3a2-1adb-48cb-ab46-ce225769de16",
                 "alterId": 0,
-                "email": "mailto:t@t.tt",
+                "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none",
                 "flow": ""
@@ -71,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tEST.amir-shahravi1370.woRkers.deV",
+          "serverName": "SP11.tIOet.coM",
           "alpn": [
             "h2",
             "http/1.1"
@@ -80,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/muriel.makeup/linkvws",
+          "path": "users",
           "headers": {
-            "Host": "tEST.amir-shahravi1370.woRkers.deV"
+            "Host": "SP11.tIOet.coM"
           }
         },
         "sockopt": {
