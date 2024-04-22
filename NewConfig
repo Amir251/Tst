@@ -1,5 +1,5 @@
 {
-  "remarks": "Fragment",
+  "remarks": "Config",
   "log": {
     "access": "",
     "error": "",
@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.61.8",
+            "address": "104.16.6.65",
             "port": 443,
             "users": [
               {
-                "id": "a61eb3a2-1adb-48cb-ab46-ce225769de16",
+                "id": "8a052c65-bdf6-485a-c1d7-cb2b23f15dfa",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "SP11.tIOet.coM",
+          "serverName": "germaNy-FraNkfURt.BiTPLATFORM.ClOUD",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "users",
+          "path": "/",
           "headers": {
-            "Host": "SP11.tIOet.coM"
+            "Host": "germaNy-FraNkfURt.BiTPLATFORM.ClOUD"
           }
         },
         "sockopt": {
