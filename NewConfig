@@ -1,5 +1,5 @@
 {
-  "remarks": "Fragment",
+  "remarks": "Fragment1",
   "log": {
     "access": "",
     "error": "",
@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.195.65",
-            "port": 443,
+            "address": "sample.mr-nail25.workers.dev",
+            "port": 2096,
             "users": [
               {
-                "id": "939fcfa4-0d30-4f86-a1f7-13cc2dae002b",
+                "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "COdm-hTtp-serveR.ejlVoVTt.WORKErs.DEv",
+          "serverName": "SampLe.mR-nAIL25.woRkErs.deV",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/",
+          "path": "/jd.wxgqlfx.top:2096/",
           "headers": {
-            "Host": "COdm-hTtp-serveR.ejlVoVTt.WORKErs.DEv"
+            "Host": "SampLe.mR-nAIL25.woRkErs.deV"
           }
         },
         "sockopt": {
