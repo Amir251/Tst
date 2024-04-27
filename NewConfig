@@ -1,4 +1,5 @@
 {
+  "remarks": "Fragment",
   "log": {
     "access": "",
     "error": "",
@@ -51,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "WWW.zuLa.iR",
-            "port": 443,
+            "address": "avval.ir",
+            "port": 2096,
             "users": [
               {
-                "id": "b91b3053-9602-4a60-b848-ec0eafea0443",
+                "id": "041f929a-63f6-4af1-a492-8cbff5797b8a",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -71,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "U6ZGhn5zYTAreT4s838Q76kQgD9Mn61UFlu53560xV8nmU68Gd7Q25Y3PX.pagES-dEV.sItE",
+          "serverName": "tEleGRam-faLCunaRGO-emIRaTeSs.FalCUNar.ASso.eU.orG",
           "alpn": [
             "h2",
             "http/1.1"
@@ -80,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/",
+          "path": "/?ed=2560",
           "headers": {
-            "Host": "U6ZGhn5zYTAreT4s838Q76kQgD9Mn61UFlu53560xV8nmU68Gd7Q25Y3PX.pagES-dEV.sItE"
+            "Host": "tEleGRam-faLCunaRGO-emIRaTeSs.FalCUNar.ASso.eU.orG"
           }
         },
         "sockopt": {
