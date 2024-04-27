@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "avval.ir",
-            "port": 2096,
+            "address": "www.visa.com",
+            "port": 443,
             "users": [
               {
-                "id": "041f929a-63f6-4af1-a492-8cbff5797b8a",
+                "id": "17b5036e-0fbf-451c-8794-5f3d115178e9",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -68,11 +68,11 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tEleGRam-faLCunaRGO-emIRaTeSs.FalCUNar.ASso.eU.orG",
+          "serverName": "z.ZeDmoDEoN.LaT",
           "alpn": [
             "h2",
             "http/1.1"
@@ -80,11 +80,9 @@
           "fingerprint": "chrome",
           "show": false
         },
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "headers": {
-            "Host": "tEleGRam-faLCunaRGO-emIRaTeSs.FalCUNar.ASso.eU.orG"
-          }
+        "grpcSettings": {
+          "multiMode": true,
+          "serviceName": "@ZEDMODEON-@ZEDMODEON"
         },
         "sockopt": {
           "dialerProxy": "fragment",
