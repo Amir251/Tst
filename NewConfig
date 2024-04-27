@@ -1,5 +1,5 @@
 {
-  "remarks": "Fragmenttt",
+  "remarks": "IRCF Fragment",
   "log": {
     "access": "",
     "error": "",
@@ -52,7 +52,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "hms082.gwdef.sbs",
+            "address": "hms08.gwdef.sbs",
             "port": 443,
             "users": [
               {
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "GWdEF.SBS",
+          "serverName": "gWDEF.SBS",
           "alpn": [
             "h2",
             "http/1.1"
@@ -83,7 +83,7 @@
         "wsSettings": {
           "path": "/linkws",
           "headers": {
-            "Host": "GWdEF.SBS"
+            "Host": "gWDEF.SBS"
           }
         },
         "sockopt": {
