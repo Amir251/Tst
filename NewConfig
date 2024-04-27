@@ -48,15 +48,15 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "www.visa.com",
+            "address": "hms082.gwdef.sbs",
             "port": 443,
             "users": [
               {
-                "id": "17b5036e-0fbf-451c-8794-5f3d115178e9",
+                "id": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -68,11 +68,11 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "z.ZeDmoDEoN.LaT",
+          "serverName": "gwDef.sBS",
           "alpn": [
             "h2",
             "http/1.1"
@@ -80,9 +80,11 @@
           "fingerprint": "chrome",
           "show": false
         },
-        "grpcSettings": {
-          "multiMode": true,
-          "serviceName": "@ZEDMODEON-@ZEDMODEON"
+        "wsSettings": {
+          "path": "/linkws",
+          "headers": {
+            "Host": "gwDef.sBS"
+          }
         },
         "sockopt": {
           "dialerProxy": "fragment",
