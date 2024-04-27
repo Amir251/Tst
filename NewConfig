@@ -1,5 +1,5 @@
 {
-  "remarks": "Fragment",
+  "remarks": "Fragmenttt",
   "log": {
     "access": "",
     "error": "",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "gwDef.sBS",
+          "serverName": "GWdEF.SBS",
           "alpn": [
             "h2",
             "http/1.1"
@@ -83,7 +83,7 @@
         "wsSettings": {
           "path": "/linkws",
           "headers": {
-            "Host": "gwDef.sBS"
+            "Host": "GWdEF.SBS"
           }
         },
         "sockopt": {
