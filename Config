@@ -1,5 +1,5 @@
 {
-  "remarks": "IRCF",
+  "remarks": "Fragment",
   "log": {
     "access": "",
     "error": "",
@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ilm.minusober.com",
-            "port": 443,
+            "address": "sample.mr-nail25.workers.dev",
+            "port": 2096,
             "users": [
               {
-                "id": "089f4e2e-2167-4e4c-a050-91b9997ba0b9",
+                "id": "eedf95e3-2622-5b9f-b77b-3009c108e526",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "IlM.miNUSOBer.cOM",
+          "serverName": "samPLE.MR-Nail25.WORKERS.deV",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/ilm",
+          "path": "vless-ws/?ed=2560",
           "headers": {
-            "Host": "IlM.miNUSOBer.cOM"
+            "Host": "samPLE.MR-Nail25.WORKERS.deV"
           }
         },
         "sockopt": {
