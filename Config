@@ -1,5 +1,5 @@
 {
-  "remarks": "Fragment",
+  "remarks": "IRCF",
   "log": {
     "access": "",
     "error": "",
@@ -48,15 +48,15 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "sample.mr-nail25.workers.dev",
-            "port": 2096,
+            "address": "172.67.207.26",
+            "port": 443,
             "users": [
               {
-                "id": "eedf95e3-2622-5b9f-b77b-3009c108e526",
+                "id": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "samPLE.MR-Nail25.WORKERS.deV",
+          "serverName": "glwEiDF.sbs",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "vless-ws/?ed=2560",
+          "path": "/linkws",
           "headers": {
-            "Host": "samPLE.MR-Nail25.WORKERS.deV"
+            "Host": "glwEiDF.sbs"
           }
         },
         "sockopt": {
