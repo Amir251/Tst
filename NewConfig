@@ -1,4 +1,5 @@
 {
+  "remarks": "Hiddy",
   "log": {
     "access": "",
     "error": "",
@@ -51,13 +52,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "WWW.zuLa.iR",
+            "address": "https://www.svep.com",
             "port": 443,
             "users": [
               {
-                "id": "b91b3053-9602-4a60-b848-ec0eafea0443",
+                "id": "0b4b623c-2914-494d-b6b8-b03fbf4d6655",
                 "alterId": 0,
-                "email": "t@t.tt",
+                "email": "mailto:t@t.tt",
                 "security": "auto",
                 "encryption": "none",
                 "flow": ""
@@ -71,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "U6ZGhn5zYTAreT4s838Q76kQgD9Mn61UFlu53560xV8nmU68Gd7Q25Y3PX.pagES-dEV.sItE",
+          "serverName": "NaVIA.YaeMiKo.clOudNs.oRG",
           "alpn": [
             "h2",
             "http/1.1"
@@ -80,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/",
+          "path": "/ed?=2560",
           "headers": {
-            "Host": "U6ZGhn5zYTAreT4s838Q76kQgD9Mn61UFlu53560xV8nmU68Gd7Q25Y3PX.pagES-dEV.sItE"
+            "Host": "NaVIA.YaeMiKo.clOudNs.oRG"
           }
         },
         "sockopt": {
