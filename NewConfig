@@ -1,5 +1,5 @@
 {
-  "remarks": "Hiddy",
+  "remarks": "newCloud",
   "log": {
     "access": "",
     "error": "",
@@ -52,13 +52,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "https://www.svep.com",
-            "port": 443,
+            "address": "sample.fepat39036.workers.dev",
+            "port": 2087,
             "users": [
               {
-                "id": "0b4b623c-2914-494d-b6b8-b03fbf4d6655",
+                "id": "d556af83-5137-581f-ac36-eb9fccb4a455",
                 "alterId": 0,
-                "email": "mailto:t@t.tt",
+                "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none",
                 "flow": ""
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "NaVIA.YaeMiKo.clOudNs.oRG",
+          "serverName": "SamplE.fEPAt39036.woRkeRS.DEv",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/ed?=2560",
+          "path": "vless-ws/?ed=2560",
           "headers": {
-            "Host": "NaVIA.YaeMiKo.clOudNs.oRG"
+            "Host": "SamplE.fEPAt39036.woRkeRS.DEv"
           }
         },
         "sockopt": {
