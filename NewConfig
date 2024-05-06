@@ -1,5 +1,5 @@
 {
-  "remarks": "NewCloud",
+  "remarks": "Tst",
   "log": {
     "access": "",
     "error": "",
@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sample.fepat39036.workers.dev",
+            "address": "www.speedtest.net",
             "port": 443,
             "users": [
               {
-                "id": "d556af83-5137-581f-ac36-eb9fccb4a455",
+                "id": "ba04bcf2-2153-4c55-ac6b-4b44f66dde19",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "SAMpLe.fEPAt39036.Workers.dEv",
+          "serverName": "gaRYWelch.pAgeS.Dev",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "vless-ws/?ed=2560",
+          "path": "/?ed=2560",
           "headers": {
-            "Host": "SAMpLe.fEPAt39036.Workers.dEv"
+            "Host": "gaRYWelch.pAgeS.Dev"
           }
         },
         "sockopt": {
