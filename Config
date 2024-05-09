@@ -53,7 +53,7 @@
         "vnext": [
           {
             "address": "sample.mr-nail25.workers.dev",
-            "port": 2096,
+            "port": 2053,
             "users": [
               {
                 "id": "eedf95e3-2622-5b9f-b77b-3009c108e526",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "SAMpLe.mR-NAiL25.WOrkerS.dev",
+          "serverName": "SaMPLE.Mr-Nail25.WOrKerS.DeV",
           "alpn": [
             "h2",
             "http/1.1"
@@ -83,7 +83,7 @@
         "wsSettings": {
           "path": "vless-ws/?ed=2560",
           "headers": {
-            "Host": "SAMpLe.mR-NAiL25.WOrkerS.dev"
+            "Host": "SaMPLE.Mr-Nail25.WOrKerS.DeV"
           }
         },
         "sockopt": {
@@ -101,7 +101,7 @@
         "domainStrategy": "AsIs",
         "fragment": {
           "packets": "tlshello",
-          "length": "10-50",
+          "length": "1-20",
           "interval": "1-3"
         }
       },
