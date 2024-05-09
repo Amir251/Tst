@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sample.mr-nail25.workers.dev",
-            "port": 443,
+            "address": "23.227.60.130",
+            "port": 80,
             "users": [
               {
-                "id": "669ad826-af8a-434b-8e61-d8d7caa230c2",
+                "id": "69b46b03-16fb-43e0-99aa-2ef0c33c643e",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -71,8 +71,8 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "saMPLe.mR-nAiL25.workers.deV",
+          "allowInsecure": true,
+          "serverName": "BiA-CHANNEl-HajimaMAdvpN.TIMeclaSSiC.IR",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/forwarder.aurorainiceland.com:443/nimws",
+          "path": "@HAJIMAMADVPN?ed=2560",
           "headers": {
-            "Host": "saMPLe.mR-nAiL25.workers.deV"
+            "Host": "BiA-CHANNEl-HajimaMAdvpN.TIMeclaSSiC.IR"
           }
         },
         "sockopt": {
@@ -101,8 +101,8 @@
         "domainStrategy": "AsIs",
         "fragment": {
           "packets": "tlshello",
-          "length": "10-30",
-          "interval": "1-1"
+          "length": "10-20",
+          "interval": "10-20"
         }
       },
       "streamSettings": {
