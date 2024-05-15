@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.134.233",
+            "address": "172.67.149.105",
             "port": 443,
             "users": [
               {
-                "id": "98268aee-f8c1-41f1-8c9f-0273ada3af8c",
+                "id": "446bef91-46ec-4feb-b8f1-79a4597b1801",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "pORiYa-WArPhiDDIFy-Panel.PageS.Dev",
+          "serverName": "pPaL03.SHEmAr-ColliNs.woRkeRS.Dev",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/",
+          "path": "/xMf1-J7xXpfxrLnk?ed=2560",
           "headers": {
-            "Host": "pORiYa-WArPhiDDIFy-Panel.PageS.Dev"
+            "Host": "pPaL03.SHEmAr-ColliNs.woRkeRS.Dev"
           }
         },
         "sockopt": {
@@ -95,8 +95,8 @@
       },
       "mux": {
         "enabled": true,
-        "concurrency": 8,
-        "xudpConcurrency": 8,
+        "concurrency": 0,
+        "xudpConcurrency": 0,
         "xudpProxyUDP443": "reject"
       }
     },
