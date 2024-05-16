@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.183",
-            "port": 80,
+            "address": "172.67.134.196",
+            "port": 443,
             "users": [
               {
-                "id": "f47fb03f-7f15-41e0-bd7e-2371dc710e32",
+                "id": "dfc79b00-a51a-45cf-9c0a-d061a01295b4",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -71,8 +71,8 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "c00021HE.Ab7dB0Ab17.worKeRs.Dev",
+          "allowInsecure": false,
+          "serverName": "paHLAVI-184.pAGeS.deV",
           "alpn": [
             "h2",
             "http/1.1"
@@ -83,7 +83,7 @@
         "wsSettings": {
           "path": "/",
           "headers": {
-            "Host": "c00021HE.Ab7dB0Ab17.worKeRs.Dev"
+            "Host": "paHLAVI-184.pAGeS.deV"
           }
         },
         "sockopt": {
