@@ -1,5 +1,5 @@
 {
-  "remarks": "Frag",
+  "remarks": "Config",
   "log": {
     "access": "",
     "error": "",
@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.149.105",
-            "port": 443,
+            "address": "188.114.96.183",
+            "port": 80,
             "users": [
               {
-                "id": "446bef91-46ec-4feb-b8f1-79a4597b1801",
+                "id": "f47fb03f-7f15-41e0-bd7e-2371dc710e32",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -71,8 +71,8 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "PpAL03.SHemAR-CoLlins.WoRKeRs.Dev",
+          "allowInsecure": true,
+          "serverName": "c00021HE.Ab7dB0Ab17.worKeRs.Dev",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/xMf1-J7xXpfxrLnk?ed=2560",
+          "path": "/",
           "headers": {
-            "Host": "PpAL03.SHemAR-CoLlins.WoRKeRs.Dev"
+            "Host": "c00021HE.Ab7dB0Ab17.worKeRs.Dev"
           }
         },
         "sockopt": {
