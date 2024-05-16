@@ -1,5 +1,5 @@
 {
-  "remarks": "Config",
+  "remarks": "NewConfig",
   "log": {
     "access": "",
     "error": "",
@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.134.196",
-            "port": 443,
+            "address": "104.18.202.232",
+            "port": 8443,
             "users": [
               {
-                "id": "dfc79b00-a51a-45cf-9c0a-d061a01295b4",
+                "id": "21c67716-e8cb-452d-a36c-a6ca41e17d1a",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -68,11 +68,11 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "pAHlavI-184.pagEs.DEv",
+          "serverName": "aMBATuKAMnotThatSHIP1.V2lOgy.iR",
           "alpn": [
             "h2",
             "http/1.1"
@@ -80,11 +80,9 @@
           "fingerprint": "chrome",
           "show": false
         },
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "pAHlavI-184.pagEs.DEv"
-          }
+        "grpcSettings": {
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment",
