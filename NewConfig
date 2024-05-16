@@ -53,10 +53,10 @@
         "vnext": [
           {
             "address": "104.18.202.232",
-            "port": 8443,
+            "port": 8880,
             "users": [
               {
-                "id": "21c67716-e8cb-452d-a36c-a6ca41e17d1a",
+                "id": "1d7ba423-873e-4f2f-afd4-6593ed5e9f79",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -68,21 +68,12 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "aMBATuKAMnotThatSHIP1.V2lOgy.iR",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "show": false
-        },
-        "grpcSettings": {
-          "multiMode": false,
-          "serviceName": ""
+        "network": "ws",
+        "wsSettings": {
+          "path": "/omid2?ed=2560",
+          "headers": {
+            "Host": "NetHerlAna.6.6.oRg.iR.cOm.SitE.Xn--FHq0lA447aAc5504deA701AxR1G.WAgNerVPN.Com"
+          }
         },
         "sockopt": {
           "dialerProxy": "fragment",
@@ -98,9 +89,9 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "tlshello",
-          "length": "5-10",
-          "interval": "1-5"
+          "packets": "1-1",
+          "length": "1-3",
+          "interval": "5"
         }
       },
       "streamSettings": {
