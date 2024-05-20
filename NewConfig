@@ -1,5 +1,5 @@
 {
-  "remarks": "New",
+  "remarks": " VLWSNONE NA104.16.67.3880 (IRCF Fragment)",
   "log": {
     "access": "",
     "error": "",
@@ -69,10 +69,21 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "HtaMIZ3.kAGHazachaRRangI.sbS",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "show": false
+        },
         "wsSettings": {
           "path": "/",
           "headers": {
-            "Host": "hTAMIZ3.KaGHAZacharrANgi.sbs"
+            "Host": "HtaMIZ3.kAGHazachaRRangI.sbS"
           }
         },
         "sockopt": {
@@ -89,9 +100,9 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
-          "length": "1-3",
-          "interval": "5"
+          "packets": "tlshello",
+          "length": "10-20",
+          "interval": "10-20"
         }
       },
       "streamSettings": {
