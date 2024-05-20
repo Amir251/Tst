@@ -1,5 +1,5 @@
 {
-  "remarks": "NewConfig",
+  "remarks": "New",
   "log": {
     "access": "",
     "error": "",
@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.146",
-            "port": 443,
+            "address": "104.16.67.38",
+            "port": 80,
             "users": [
               {
-                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+                "id": "f5a84d2d-6ea2-4d80-986e-563c6e6af7f9",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -69,21 +69,10 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "4b097C46.GRIZZlyVpN.pagEs.deV",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "show": false
-        },
         "wsSettings": {
-          "path": "/vVEBFG5xE2BS8YUp?ed=2560",
+          "path": "/",
           "headers": {
-            "Host": "4b097C46.GRIZZlyVpN.pagEs.deV"
+            "Host": "hTAMIZ3.KaGHAZacharrANgi.sbs"
           }
         },
         "sockopt": {
@@ -100,9 +89,9 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "tlshello",
-          "length": "5-10",
-          "interval": "1-5"
+          "packets": "1-1",
+          "length": "1-3",
+          "interval": "5"
         }
       },
       "streamSettings": {
