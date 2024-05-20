@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.180.16",
-            "port": 2087,
+            "address": "104.19.132.246",
+            "port": 443,
             "users": [
               {
-                "id": "b81edee6-a129-4160-ad29-488f0b5d81b4",
+                "id": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "vpn-oCean4.cDn-useR2.WORKErs.Dev",
+          "serverName": "Mmdv2.pAGes.DEv",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "vless-ws/?ed=2560",
+          "path": "/",
           "headers": {
-            "Host": "vpn-oCean4.cDn-useR2.WORKErs.Dev"
+            "Host": "Mmdv2.pAGes.DEv"
           }
         },
         "sockopt": {
