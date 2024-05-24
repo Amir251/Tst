@@ -1,164 +1,116 @@
 {
-  "dns": {
-    "hosts": {
-
-"dns.adguard-dns.com": [
-
-"176.103.130.130",
-"176.103.130.131",
-"176.103.130.132",
-"176.103.130.134",
-"176.103.130.136",
-"176.103.130.137",
-"94.140.14.14",
-"94.140.15.15",
-"94.140.14.15",
-"94.140.15.16",
-"94.140.14.140",
-"94.140.14.141"
-
-]
-   
-    },
-    "servers": [
-
-      {
-        "address": "https://dns.adguard-dns.com/dns-query"
-      
-        
-      }
-      
-      
-    ]
+  "remarks": "MTN",
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
   },
   "inbounds": [
     {
-      "listen": "127.0.0.1",
+      "tag": "socks",
       "port": 10808,
+      "listen": "127.0.0.1",
       "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
       "settings": {
         "auth": "noauth",
         "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "fakedns"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
+        "allowTransparent": false
+      }
     },
     {
-      "listen": "127.0.0.1",
+      "tag": "http",
       "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    },
-    {
       "listen": "127.0.0.1",
-      "port": 10853,
-      "protocol": "dokodemo-door",
-      "settings": {
-        "address": "1.1.1.1",
-        "network": "tcp,udp",
-        "port": 53
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
       },
-      "tag": "dns-in"
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
     }
   ],
-  "log": {
-    "loglevel": "warning"
-  },
   "outbounds": [
     {
-      "protocol": "wireguard",
+      "tag": "proxy",
+      "protocol": "vless",
       "settings": {
-        "secretKey": "MJQlQQ1+GlHB0H/eqDJkKNEg5daDb9SgNf92fwc1qmo=",
-        "address": [
-          "172.16.0.2/32",
-          "2606:4700:110:8dfd:c56a:6f89:44dc:11a1/128"
-        ],
-        "peers": [
+        "vnext": [
           {
-            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-            "allowedIPs": [
-              "0.0.0.0/0",
-              "::/0"
-            ],
-            "keepAlive": 1,
-            "endpoint": "188.114.96.185:939"
+            "address": "162.159.153.2",
+            "port": 2096,
+            "users": [
+              {
+                "id": "3c9d2bd9-851d-4ec4-adf9-72db22a1e30a",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
           }
-        ],
-        "reserved": [
-          134,26,134
-        ],
-        "mtu": 1280
+        ]
       },
-      "tag": "chain"
-    },
-    {
-      "protocol": "wireguard",
-      "settings": {
-        "secretKey": "oKGXW8p/HnQ5MwPU0wHLN804fvvYI4o5GtSou4Mr30k=",
-        "address": [
-          "172.16.0.2/32",
-          "2606:4700:110:81ad:51b4:1efe:bd02:5e3b/128"
-        ],
-        "peers": [
-          {
-            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-            "allowedIPs": [
-              "0.0.0.0/0",
-              "::/0"
-            ],
-            "keepAlive": 1,
-            "endpoint": "188.114.96.200:1701"
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "TELeGRaM-fALcUNARgO-FrAnce.FAlCUnar.ASSo.eU.oRg",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": "TELeGRaM-fALcUNARgO-FrAnce.FAlCUnar.ASSo.eU.oRg"
           }
-        ],
-        "reserved": [
-          14,87,148
-        ],
-        "mtu": 1280
-      },
-      "proxySettings": {
-        "tag": "chain"
-      },
-      "tag": "proxy"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpNoDelay": true
+        }
+      }
     },
     {
       "tag": "fragment",
       "protocol": "freedom",
-    
       "settings": {
+        "domainStrategy": "AsIs",
         "fragment": {
           "packets": "tlshello",
-          "length": "10-20",
-          "interval": "10-20"
+          "length": "5-10",
+          "interval": "1-5"
+        }
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100
         }
       }
-    },
-    {
-      "tag": "fragment2",
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "packets": "1-1",
-          "length": "3-5",
-          "interval": "5"
-        }
-      }
-    },
-    {
-      "protocol": "dns",
-       "sockopt": {
-          "dialerProxy": "fragment"
-      
-        },
-      "tag": "dns-out"
     },
     {
       "tag": "direct",
@@ -177,17 +129,21 @@
   ],
   "routing": {
     "domainStrategy": "AsIs",
-    "domainMatcher": "hybrid",
     "rules": [
-      
       {
+        "type": "field",
         "inboundTag": [
-          "socks",
-          "http",
-         "dns-in"
+          "api"
         ],
+        "outboundTag": "api",
+        "enabled": true
+      },
+      {
+        "id": "5627785659655799759",
+        "type": "field",
+        "port": "0-65535",
         "outboundTag": "proxy",
-        "type": "field"
+        "enabled": true
       }
     ]
   }
