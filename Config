@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.153.2",
-            "port": 2096,
+            "address": "104.21.43.221",
+            "port": 443,
             "users": [
               {
-                "id": "3c9d2bd9-851d-4ec4-adf9-72db22a1e30a",
+                "id": "b0e6a2c9-e667-4e42-9cb3-77d7db3e736b",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "TELeGRaM-fALcUNARgO-FrAnce.FAlCUnar.ASSo.eU.oRg",
+          "serverName": "bYpaSsfiLTER.TeSt-FAd.WorKers.dEv",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/",
+          "path": "/vless-ws/?ed=2560",
           "headers": {
-            "Host": "TELeGRaM-fALcUNARgO-FrAnce.FAlCUnar.ASSo.eU.oRg"
+            "Host": "bYpaSsfiLTER.TeSt-FAd.WorKers.dEv"
           }
         },
         "sockopt": {
@@ -101,7 +101,7 @@
         "domainStrategy": "AsIs",
         "fragment": {
           "packets": "tlshello",
-          "length": "5-10",
+          "length": "5-20",
           "interval": "1-5"
         }
       },
