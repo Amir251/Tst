@@ -52,13 +52,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.43.221",
+            "address": "sample.mr-nail25.workers.dev",
             "port": 443,
             "users": [
               {
-                "id": "b0e6a2c9-e667-4e42-9cb3-77d7db3e736b",
+                "id": "01ab9337-f478-4765-9534-88f009f83ddb",
                 "alterId": 0,
-                "email": "t@t.tt",
+                "email": "mailto:t@t.tt",
                 "security": "auto",
                 "encryption": "none",
                 "flow": ""
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "bYpaSsfiLTER.TeSt-FAd.WorKers.dEv",
+          "serverName": "SAMple.MR-nail25.wOrkERs.DEV",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/vless-ws/?ed=2560",
+          "path": "/aut226.ylks.link:443/?ed",
           "headers": {
-            "Host": "bYpaSsfiLTER.TeSt-FAd.WorKers.dEv"
+            "Host": "SAMple.MR-nail25.wOrkERs.DEV"
           }
         },
         "sockopt": {
@@ -101,8 +101,8 @@
         "domainStrategy": "AsIs",
         "fragment": {
           "packets": "tlshello",
-          "length": "5-20",
-          "interval": "1-5"
+          "length": "5-50",
+          "interval": "1-10"
         }
       },
       "streamSettings": {
