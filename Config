@@ -52,13 +52,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "sample.mr-nail25.workers.dev",
-            "port": 443,
+            "address": "162.159.153.2",
+            "port": 2096,
             "users": [
               {
-                "id": "01ab9337-f478-4765-9534-88f009f83ddb",
+                "id": "3c9d2bd9-851d-4ec4-adf9-72db22a1e30a",
                 "alterId": 0,
-                "email": "mailto:t@t.tt",
+                "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none",
                 "flow": ""
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "SAMple.MR-nail25.wOrkERs.DEV",
+          "serverName": "tElegrAM-falCUNargO-fRancE.FalcuNar.aSSo.Eu.ORg",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,9 +81,9 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/aut226.ylks.link:443/?ed",
+          "path": "/?ed=2560",
           "headers": {
-            "Host": "SAMple.MR-nail25.wOrkERs.DEV"
+            "Host": "tElegrAM-falCUNargO-fRancE.FalcuNar.aSSo.Eu.ORg"
           }
         },
         "sockopt": {
@@ -101,8 +101,8 @@
         "domainStrategy": "AsIs",
         "fragment": {
           "packets": "tlshello",
-          "length": "5-50",
-          "interval": "1-10"
+          "length": "10-40",
+          "interval": "4-8"
         }
       },
       "streamSettings": {
