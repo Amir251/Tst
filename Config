@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.153.2",
-            "port": 2096,
+            "address": "104.21.235.164",
+            "port": 443,
             "users": [
               {
-                "id": "3c9d2bd9-851d-4ec4-adf9-72db22a1e30a",
+                "id": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tElegrAM-falCUNargO-fRancE.FalcuNar.aSSo.Eu.ORg",
+          "serverName": "MmdV2.PAges.DEv",
           "alpn": [
             "h2",
             "http/1.1"
@@ -81,34 +81,37 @@
           "show": false
         },
         "wsSettings": {
-          "path": "/?ed=2560",
+          "path": "/",
           "headers": {
-            "Host": "tElegrAM-falCUNargO-fRancE.FalcuNar.aSSo.Eu.ORg"
+            "Host": "MmdV2.PAges.DEv"
           }
         },
         "sockopt": {
           "dialerProxy": "fragment",
           "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpNoDelay": true
+          "mark": 255
         }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
       }
     },
     {
       "tag": "fragment",
       "protocol": "freedom",
       "settings": {
-        "domainStrategy": "AsIs",
         "fragment": {
           "packets": "tlshello",
-          "length": "10-40",
-          "interval": "4-8"
+          "length": "10-20",
+          "interval": "10-20"
         }
       },
       "streamSettings": {
         "sockopt": {
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100
+          "TcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255
         }
       }
     },
@@ -136,6 +139,27 @@
           "api"
         ],
         "outboundTag": "api",
+        "enabled": true
+      },
+      {
+        "id": "5465425548310166497",
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:ir",
+          "geosite:cn"
+        ],
+        "enabled": true
+      },
+      {
+        "id": "5425034033205580637",
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:private",
+          "geoip:cn",
+          "geoip:ir"
+        ],
         "enabled": true
       },
       {
